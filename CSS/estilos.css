@@ -1,0 +1,112 @@
+/* aquí irá el CSS */
+        /* Lo siguiente va a ir en donde ya mencionamos anteriormente que iría el CSS. */
+
+        /* font-family: 'Playfair Display', serif; */
+
+        :root{
+          box-sizing: border-box;
+          /* overflow: hidden; */
+        }
+        body {
+            box-sizing: border-box;
+            background: url('/img//stock-photo-write-a-blueprint-hospital-architecture-for-building-1716597547.jpg');
+            background-repeat: no-repeat;
+            background-size: 300vh;
+            
+          }
+        h1{
+          font-family: 'Playfair Display', serif;
+          font-style: normal;
+          font-weight: 900 !important;
+          
+        }
+
+        #myDIV a{
+          text-decoration: none !important;
+          color: white !important;
+        }
+          #info {
+            text-align: center; background:transparent;
+            margin: 150px auto 0 auto;
+
+
+          }
+
+          body image {
+            min-width: 500%;
+            height: auto;
+            background-repeat: no-repeat;
+          }
+
+          @media (max-width: 768px) {
+            :root{
+              overflow: auto;
+            }
+            body {
+            
+              background-image: none;
+              
+            }
+            #myDIV .card{
+              margin-top: 2em !important;
+            }
+          }
+
+          #myDIV .card{
+              float: left;
+               background-color: transparent;
+               color: white;
+    
+
+          }
+
+          #trabajo {
+               border-right: 0px inset #FFFFFF;
+               border-left: 0px inset #FFFFFF; 
+
+          }
+
+          #titular {
+            margin: -20px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            -webkit-box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.2); 
+            box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.2);
+
+          }
+
+          #barraNegra {
+            background-color: black;
+
+          }
+          #contactosPpal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .iconCont{
+            margin: auto;
+            display: flex;
+            background-color: white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+          }
+          #contactosPpal i {
+            margin-top: 5px;
+            font-size: x-large !important;
+            color: black;
+          }
+
+          #bioCont, #trabajosCont {
+            margin-top: 3em;
+
+            margin-left: 3em;
+            text-align: left;
+          }
+
+
+

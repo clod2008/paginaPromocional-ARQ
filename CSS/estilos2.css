@@ -1,0 +1,324 @@
+/* aquí irá el CSS */
+        /* Lo siguiente va a ir en donde ya mencionamos anteriormente que iría el CSS. */
+
+        /* font-family: 'Playfair Display', serif; */
+
+        :root{
+          box-sizing: border-box;
+          overflow-y: hidden !important;
+          overflow-x: hidden;
+
+
+        }
+        body {
+            box-sizing: border-box;
+            background: url('/img/SVG/plano.svg');
+            background-repeat: no-repeat;
+            background-size: 250vh;          
+
+            
+          }
+        
+        #loader{
+          float: left;
+          z-index: 3000;
+          min-width: 100vw;
+          min-height: 100vw;
+          background-color: rgb(255, 255, 255);
+
+        }
+
+        #loader h1 {
+          padding-top: 30vh;
+          /*   margin-left: 50vw;  */
+          margin: auto;
+
+        }
+        
+        a:hover {
+            color: slategray;
+        }
+
+        h1{
+          font-family: 'Playfair Display', serif;
+          font-style: normal;
+          font-weight: 900 !important;
+          margin-bottom: 1em !important;
+          color: white !;
+          
+        }
+
+        p {
+            text-align: left;
+           
+        }
+
+
+        ul {
+            text-align: left;
+            margin-left: 8em;
+            margin-right: 8em;
+            font-size: 0.8em;
+            color: white !important;
+        }
+
+        #contenidoUno a{
+          text-decoration: none !important;
+          color: white !important;
+
+        }
+        #contenidoUno a:hover{
+            color: slategray !important;
+        }
+
+        #menu2 a, #titular a{
+            font-family: 'Playfair Display', serif;
+            font-style: normal;
+            font-weight: 900 !important;
+            text-decoration: none;
+            color: black;
+        }
+
+        #menu2 a:hover, #titular a:hover {
+
+            color: slategray !important;
+        }
+         
+
+          #info {
+            text-align: center; background:transparent;
+            margin: 150px auto 0 auto;
+            }
+
+          body image {
+            min-width: 500%;
+            height: auto;
+            background-repeat: no-repeat;
+          }
+
+        .datosCont {
+          font-size: 1.3em;
+        }
+
+        #loader img{
+
+        }
+    
+/* @ media *********************/
+          @media (max-width: 768px) {
+            :root{
+              overflow-y: auto !important;
+            }
+            body {
+            
+              background: url('/img/1x/plano-80.jpg');
+              background-repeat: no-repeat;
+              background-size: 250vh !important;   
+              
+              
+            }
+
+            #barraNegra {
+              margin: auto;
+            }
+
+            #myDIV{
+              margin: auto !important;
+            }
+            #myDIV .card{
+              margin-top: 2em !important;
+            }
+
+            #info {
+              margin: auto;
+              margin-left: 0em !important;
+            }
+
+            ul {
+                
+                margin-left: 0em;
+                margin-right: 0em;
+                font-size: 0.8em;
+                
+            }
+
+            #contenidoUno{
+                            
+              min-width:100%;
+              display: block;
+              padding: -0px !important;
+              margin-left: 0px !important;
+              margin-top: 3em;
+            
+            }
+
+            #contenidoUno .row {
+              min-width: 100% !important;
+            }
+
+            #botoneraUno{
+            
+              margin-top: 3em;
+              
+            }
+            #titular{
+              margin-left: 0em !important;
+              /* background-image: url(/img/stock-photo-write-a-blueprint-hospital-architecture-for-building-1716597547.jpg);
+              background-size: cover; */
+              
+
+            }
+            #titular p{
+              background-color: rgba(255, 255, 255, 0.7);
+              padding: 1em;
+            }
+
+            .carousel-inner{
+              margin-bottom: 2em !important;
+              margin-right: 0px !important;
+              padding-right: 0em !important;
+            }
+
+          }
+
+
+/* @ media *********************/
+
+          .carousel-inner{
+            margin-bottom: 2em;
+            margin-right: 0em !important;
+            padding-right: 1em ;
+          }
+          #contenidoBioVer2 p{
+              display: inherit !important;
+          }
+
+          #trabajo {
+               border-right: 0px inset #FFFFFF;
+               border-left: 0px inset #FFFFFF; 
+
+          }
+
+          #titular {
+            margin: -20px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            -webkit-box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.2); 
+            box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.2);
+            z-index: 500;
+
+          }
+
+          #titular img {
+            width: 80%;
+          }
+
+          #barraNegra {
+            background-color: black;
+            /* margin-bottom: 25em !important; */
+
+          }
+          #contactosPpal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          #contenidoUno {
+            margin-left: 2em;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            color: white;
+          }
+          .iconCont{
+            margin: auto;
+            display: flex;
+            background-color: white;
+            color: black;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            padding: 1em;
+          }
+
+          .iconCont:hover{
+            background-color: slategray;
+            transition-duration: 500ms;
+
+          }
+
+          .iconCont h4 {
+            color: black !important;
+            font-size: 1.2em;
+            
+          }
+
+          #titular p{
+            font-family: 'Playfair Display' , serif;
+            font-style: italic;
+            font-size: 1.2em;
+          }
+
+          #titular p strong{
+            font-family: 'Playfair Display' , serif;
+            font-style: normal;
+          }
+
+          #contenidoContactoVer2 a p:hover{
+            color: slategray !important;
+            /* font-weight: bolder; */
+            transition-duration: 500ms;
+
+          }
+
+          #menu2 a{
+            font-size: 1em;
+          }
+
+          #menu2 {
+            margin-top: 3em;
+          }
+
+          #contactosPpal i {
+            margin-top: 5px;
+            font-size: x-large !important;
+            color: black;
+          }
+
+          #bioCont, #trabajosCont {
+            margin-top: 3em;
+            color: white;
+            margin-left: 3em;
+            text-align: left;
+          }
+
+          #contenidoBioVer2, #contenidoTrabajosVer2,  {
+              color: white;
+          }
+
+          #contenidoContactoVer2 h1{
+              color: white;
+          }
+
+          #contenidoContactoVer2 p{
+            color: white;
+            text-align: center !important;
+            margin: auto;
+          }
+
+          .carousel-caption {
+            padding: 2em;
+            /* display: flex; */
+            /* align-items: start; */
+            /* margin-bottom: 15%; */
+            background-color: rgba(0, 0, 0, 0.6);
+          }
+
+
+

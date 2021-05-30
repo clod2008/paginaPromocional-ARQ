@@ -1,5 +1,5 @@
 # Sitio web personal
-Resume con la trayectorría de un arquitecto cosntructor
+Resume con la trayectoría de un arquitecto cosntructor
 
 ## Construido con 🛠️
 

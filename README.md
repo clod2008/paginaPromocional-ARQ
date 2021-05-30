@@ -1,5 +1,5 @@
-# Sitio web presonal
-Resume con la tryectorría de un arquitecto cosntrutor
+# Sitio web personal
+Resume con la trayectorría de un arquitecto cosntructor
 
 ## Construido con 🛠️
 

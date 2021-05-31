@@ -1,5 +1,5 @@
 # Sitio web personal
-Resume con la trayectoría de un arquitecto cosntructor
+Resumen de la trayectoría de un arquitecto constructor
 
 ## Construido con 🛠️
 
@@ -10,6 +10,6 @@ Resume con la trayectoría de un arquitecto cosntructor
 ### Página activa
 * [Arq. Sergio Conte](https://arqsergioconte.com.ar/)
 
-### Librerias y frameworks
+### Librerías y frameworks
 * [Jquery](https://jquery.com/)
 
